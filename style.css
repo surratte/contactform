@@ -1,23 +1,44 @@
+h1{
+    font-family: 'Dosis', sans-serif;
+font-family: 'Quicksand', sans-serif;
+    color: darkgoldenrod;
+
+}
 label,input,textarea{
     display: block;
-    
+    font-family: 'Dosis', sans-serif;
+font-family: 'Quicksand', sans-serif;
+    color: darkgoldenrod;
+
 }
 body{
     margin: 0;
     padding: 0;
     background-size: cover;
-    background: url(house.jpg)
+    background: url(house3.jpg)
 }
 .form-group{
-    width: 85%;
+    width: 100%;
     max-width: 300px;
     position: absolute;
-    background-color: lightcyan;
+    background-color: whitesmoke;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 30px 40px;
     box-sizing: border-box;
     border-radius: 8px;
-    
+    font-family: 'Dosis', sans-serif;
+font-family: 'Quicksand', sans-serif;
+}
+.submit{
+    --hue: var(--hue-neutral);
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color: skyblue;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+    font-family: 'Dosis', sans-serif;
+font-family: 'Quicksand', sans-serif;
 }
