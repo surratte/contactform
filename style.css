@@ -1,35 +1,26 @@
-h1{
-    font-family: 'Dosis', sans-serif;
-font-family: 'Quicksand', sans-serif;
-    color: darkgoldenrod;
 
-}
-label,input,textarea{
-    display: block;
-    font-family: 'Dosis', sans-serif;
-font-family: 'Quicksand', sans-serif;
-    color: darkgoldenrod;
-
-}
-body{
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background: url(house3.jpg)
+section{
+    background: url(house3.jpg);
+    height: 100vh;
+    display:flex;
+    justify-content: center;
 }
 .form-group{
-    width: 100%;
-    max-width: 300px;
+    width: 85%;
+    max-width: 600px;
     position: absolute;
-    background-color: whitesmoke;
+    background: rgba(212, 170, 106, 0.81);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
     padding: 30px 40px;
+    transform: translate(-50%,-50%);
     box-sizing: border-box;
     border-radius: 8px;
     font-family: 'Dosis', sans-serif;
-font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    
 }
 .submit{
     --hue: var(--hue-neutral);
@@ -41,4 +32,42 @@ font-family: 'Quicksand', sans-serif;
   outline: none;
     font-family: 'Dosis', sans-serif;
 font-family: 'Quicksand', sans-serif;
+}
+label,input,textarea{
+    display: block;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+font-family: 'Quicksand', sans-serif;
+    color: black;
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+}
+.form-group h1{
+    font-family: 'Dosis', sans-serif;
+font-family: 'Quicksand', sans-serif;
+    color: black;
+    margin-top: 0;
+    font-weight: 200;
+    font-size: 38px;
+}
+.txtb{
+    border: 1px solid darkgray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.txtb input, .txtb textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
 }
