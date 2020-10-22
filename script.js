@@ -5,12 +5,12 @@ $(document).ready(function () {
      event.preventDefault()
      console.log("clicked button")
 
-     var name = $(".name").val()
-     var email = $(".email").val()
-     var phone = $(".phone").val()
-     var subject = $(".subject").val()
-     var message = $('.message').val()
-     var statusElm = $('.status ')
+     let name = $(".name").val()
+     let email = $(".email").val()
+     let phone = $(".phone").val()
+     let subject = $(".subject").val()
+     let message = $('.message').val()
+     let statusElm = $('.status ')
 
      if(name.length > 5 ) {
         statusElm.append('<div>name is valid</div>')
